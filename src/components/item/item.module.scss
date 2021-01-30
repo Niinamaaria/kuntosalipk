@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    border-bottom: 1px solid #00FA9A;
+    color: #999999;
+}
+
+.item_data {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.75rem;
+}
+
+.item_repeats,.item_kg {
+    text-align: right;
+}
+
+.item_type, .item_date {
+    font-weight: bold;
+    color: #000000;
+}
