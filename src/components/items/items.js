@@ -7,6 +7,8 @@ function Items(props) {
             <Item/>
             <Item/>
             <Item/>
+            <Item/>
+            <Item/>
         </div>
     );
 }
