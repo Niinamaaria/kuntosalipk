@@ -8,6 +8,7 @@ import Person from '../../routes/person';
 import Stats from '../../routes/stats';
 import Menu from '../menu';
 import { ButtonAppContainer } from '../../shared/uibuttons';
+import testdata from '../../testdata';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Header />
           <Content>
             <Route exact path="/">
-            <Items />
+            <Items data={testdata} />
             </Route>
             <Route path="/settings">
               <Settings />
