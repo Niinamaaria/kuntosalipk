@@ -1,9 +1,9 @@
 .uibutton {
     background-color: #cccccc;
     color: #000000;
+    padding: 0.7em 1.5em;
     border: none;
     outline: none;
-    padding: 0.7em 1.5em;
     margin: 0.5em;
     border-radius: 0.2em;
     box-shadow: rgba(0,0,0,0.5) 0px 2px 2px;
@@ -51,7 +51,7 @@
 
 .uibutton--success {
     position: fixed;
-    bottom: 6rem;
+    bottom: 9rem;
     right: 15rem;
     max-width: 8.0rem;
     min-width: 8.0rem;
@@ -59,10 +59,20 @@
 
 .uibutton--info {
     position: fixed;
-    bottom: 9rem;
+    bottom: 6rem;
     right: 15rem;
     min-width: 8.0rem;
     max-width: 8.0rem;
+}
+
+.uibutton--light {
+    background-color: #00FA9A;
+    color: #000000;
+    position: fixed;
+    bottom: 5.5rem;
+    right: 10rem;
+    left: 14rem;
+
 }
 
 .uibutton:disabled {
