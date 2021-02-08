@@ -1,0 +1,47 @@
+@import '../../assets/styles/_config.scss';
+
+
+
+.settings h2 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.settings h3 {
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 1.4rem;
+}
+
+.settings_types {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.settings_types > div {
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.settings_types > div:nth-child(odd) {
+    font-weight: bold;
+    background-color: #F5F5DC;
+    opacity: 75%;
+}
+
+.typeform {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.typeform input {
+    flex: 1 1 auto;
+    padding: $form-input-padding;
+    border: 1px solid $form-input-border;
+    border-radius: $form-input-radius;
+    font-size: $form-input-fontsize;
+    outline: none;
+}

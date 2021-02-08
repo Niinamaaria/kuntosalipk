@@ -1,5 +1,6 @@
 import styles from './item.module.scss';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import { Link } from 'react-router-dom';
 
 function Item(props) {
 
@@ -15,7 +16,7 @@ function Item(props) {
                 <div className={styles.item_kg}>{props.data.kilos}</div>
             </div>
             <div className={styles.item_edit}>
-                <NavigateNextIcon />
+                <Link to={"/edit/"+props.data.id}><NavigateNextIcon /></Link>
             </div>
         </div>
     );

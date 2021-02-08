@@ -35,3 +35,7 @@
 .item:hover .item_edit {
     display: flex;
 }
+
+.item_edit a {
+    color: $item-edit-text;
+}
