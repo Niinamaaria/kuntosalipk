@@ -1,0 +1,37 @@
+@import '../../assets/styles/_config.scss';
+
+.person {
+    padding: $container-padding;
+}
+
+.person h3 {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.person_data {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 220px;
+}
+
+.person_data > div {
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.person > img {
+    position: fixed;
+    bottom: 17rem;
+    right: 11.5rem;
+    border-radius: 50%;
+    font-size: 6.5em;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.5em;
+}
