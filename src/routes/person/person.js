@@ -1,10 +1,19 @@
-import styles from './person.module.scss';
+import { Link } from 'react-router-dom';
+import PersonInfo from '../../components/personinfo';
+import { FloatingButton, ButtonContainer } from '../../shared/uibuttons';
 
 function Person(props) {
+
+    const person = props.data.map((person) => <PersonInfo key={person.id} data={person} />);
+
     return (
-        <div>
-            <h2>Person</h2>
+
+    <ButtonContainer>
+        <div> 
+            {person}
+            <Link to="/addinfo"><FloatingButton secondary>+</FloatingButton></Link>
         </div>
+    </ButtonContainer>
     );
 }
 
