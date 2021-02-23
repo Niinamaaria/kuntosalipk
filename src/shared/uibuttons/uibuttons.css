@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: 12rem;
+    bottom: 11rem;
     right: 15rem;
     max-width: 8.0rem;
     min-width: 8.0rem;
@@ -51,7 +51,7 @@
 
 .uibutton--success {
     position: fixed;
-    bottom: 9rem;
+    bottom: 8rem;
     right: 15rem;
     max-width: 8.0rem;
     min-width: 8.0rem;
@@ -59,7 +59,7 @@
 
 .uibutton--info {
     position: fixed;
-    bottom: 6rem;
+    bottom: 4.85rem;
     right: 15rem;
     min-width: 8.0rem;
     max-width: 8.0rem;
@@ -69,9 +69,8 @@
     background-color: #00FA9A;
     color: #000000;
     position: fixed;
-    bottom: 3.5rem;
-    right: 10rem;
-    left: 14rem;
+    bottom: 5rem;
+    left: 16rem;
 
 }
 
