@@ -1,0 +1,18 @@
+@import '../../assets/styles/_config.scss';
+
+.stats h2 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.stats h3 {
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 1.4rem;
+}
+
+
+.stats > div a {
+    color: #00FA9A;
+}
