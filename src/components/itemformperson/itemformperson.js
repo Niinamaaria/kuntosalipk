@@ -32,7 +32,7 @@ function ItemFormPerson(props) {
     return (
         <div>
             <div className={styles.profile}>
-                <form onSubmit={handleSubmitPerson}>
+                <form id={"person"} onSubmit={handleSubmitPerson}>
                     <div className={styles.person_form}>
                             <label htmlFor="name">Nimi: </label>
                             <input type="text" name="name" onChange={handleChangePerson} value={values.name}></input>

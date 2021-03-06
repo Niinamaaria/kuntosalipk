@@ -58,8 +58,8 @@ function ItemForm(props) {
                         <input type="date" name="trainDate" onChange={handleChange} values={values.trainDate} />
                     </div>
                     <div>
-                        <label htmlFor="kilos">Painot</label>
-                        <input type="text" name="kilos" onChange={handleChange} values={values.kilos} />
+                        <label htmlFor="kilos">Painot / Kg</label>
+                        <input type="number" name="kilos" step="0.01" onChange={handleChange} values={values.kilos} />
                     </div> 
                 </div>
             </div>

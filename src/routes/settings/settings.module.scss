@@ -1,10 +1,7 @@
 @import '../../assets/styles/_config.scss';
 
-
-
-.settings h2 {
-    margin-left: 200px;
-    margin-right: 200px;
+.settings {
+    padding: $container-padding;
 }
 
 .settings h3 {
@@ -29,12 +26,13 @@
 .settings_types > div:nth-child(odd) {
     font-weight: bold;
     background-color: #F5F5DC;
-    opacity: 75%;
+    opacity: 75%; 
 }
 
 .typeform {
     display: flex;
     margin-top: 0.5rem;
+
 }
 
 .typeform input {

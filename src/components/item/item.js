@@ -17,7 +17,7 @@ function Item(props) {
             </div>
             <div className={styles.item_edit}>
                 <Link to={"/edit/"+props.data.id}><NavigateNextIcon /></Link>
-            </div>
+            </div> 
         </div>
     );
 }

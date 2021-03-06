@@ -14,7 +14,6 @@ function Settings(props) {
 
     return (
         <div className={styles.settings}>
-            <h2>Settings</h2>
             <h3>Kuntosaliliikkeet</h3>
             <div className={styles.settings_types}>
                 {props.types.map((type) => <div key={type}>{type} </div>)}
