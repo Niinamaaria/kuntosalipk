@@ -1,5 +1,5 @@
 import styles from './stats.module.scss';
-import { Area, AreaChart, XAxis, YAxis, ResponsiveContainer, Label, CartesianGrid, Tooltip, Pie, PieChart } from 'recharts';
+import { Area, AreaChart, XAxis, YAxis, ResponsiveContainer, Label, CartesianGrid, Tooltip } from 'recharts';
 
 function Stats(props) {
 
@@ -21,7 +21,7 @@ function Stats(props) {
         <div className={styles.stats}>
             <h2>Treenit aikajanalla</h2>
             
-            <ResponsiveContainer width={"100%"} height={200}>
+            <ResponsiveContainer width={"100%"} height={400}>
             <AreaChart data={linedata} margin={{ top:20, left: 20, right: 20, bottom: 10 }} >
                 <CartesianGrid strokeDasharray="3 3"/>
                 <XAxis  type="number"
@@ -39,15 +39,6 @@ function Stats(props) {
                 <Area dataKey="kilos" name="kilot" unit="kg" fill="#FFFF33" stroke="#000000"/>
                 <Tooltip labelFormatter={value => new Date(value).toLocaleDateString("fi-FI")}/>
             </AreaChart>
-            </ResponsiveContainer>
-
-            <h3>Kilot liikkeittäin</h3>
-            
-            <ResponsiveContainer width={"100%"} height={200}>
-            <PieChart data={piedata}>
-
-                <Pie dataKey="kilos" name="kilot" unit="kg" />
-            </PieChart>
             </ResponsiveContainer>
 
         </div>
