@@ -70,8 +70,15 @@
     color: #000000;
     position: fixed;
     bottom: 5rem;
-    left: 16rem;
+    left: 27rem;
+}
 
+.uibutton--dark {
+    background-color: #00FA9A;
+    color: #000000;
+    position: fixed;
+    bottom: 8rem;
+    left: 38rem;
 }
 
 .uibutton:disabled {

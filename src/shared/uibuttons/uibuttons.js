@@ -2,7 +2,7 @@ import './uibuttons.css';
 
 const classNames = classnames => classnames.join(" ");
 
-const Button = ({ className= "", primary, secondary, success, info, light, ...props }) => {
+const Button = ({ className= "", primary, secondary, success, info, light, dark, ...props }) => {
     return (
         <button 
             type="button"
@@ -13,7 +13,8 @@ const Button = ({ className= "", primary, secondary, success, info, light, ...pr
                 secondary ? "uibutton--secondary" : "",
                 success ? "uibutton--success" : "",
                 info ? "uibutton--info" : "",
-                light ? "uibutton--light" : ""
+                light ? "uibutton--light" : "",
+                dark ? "uibutton--dark" : ""
             ])}
             {...props}
             />
