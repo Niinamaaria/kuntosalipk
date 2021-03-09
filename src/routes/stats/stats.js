@@ -15,7 +15,7 @@ function Stats(props) {
         return groupedData;
     }
 
-    const piedata = props.data.reduce(reducer,[]);
+    const bardata = props.data.reduce(reducer,[]);
         
     return (
         <div className={styles.stats}>
@@ -47,7 +47,7 @@ function Stats(props) {
                 <BarChart
                     width={300}
                     height={300}
-                    data={piedata}
+                    data={bardata}
                     margin={{
                         top: 5,
                         right: 30,
@@ -55,7 +55,7 @@ function Stats(props) {
                         bottom: 5,
                     }}>
                     <CartesianGrid strokeDasharray="3 3"/>
-                    <XAxis dataKey="type" />
+                    <XAxis dataKey="type"/>
                     <YAxis 
                         type="number"
                         dataKey="kilos"
