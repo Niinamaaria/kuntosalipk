@@ -15,8 +15,8 @@ import AddItem from '../../routes/additem';
 import EditItem from '../../routes/edititem';
 import Menu from '../menu';
 import { ButtonAppContainer } from '../../shared/uibuttons';
-import testdata from '../../testdata';
-import testdataperson from '../../testdataperson';
+// import testdata from '../../testdata';
+// import testdataperson from '../../testdataperson';
 
 function App(props) {
 

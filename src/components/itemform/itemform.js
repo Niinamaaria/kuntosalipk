@@ -17,9 +17,9 @@ function ItemForm(props) {
     }
 
     const initialState = props.data ? props.data : {
-        type: "",
+        type: props.types ? props.types[0] : "",
         repeats: "",
-        trainDate: "",
+        trainDate: new Date().toISOString().substring(0, 10),
         kilos: ""
     };
 
@@ -43,23 +43,23 @@ function ItemForm(props) {
                 <div className={styles.form_row}>
                     <div>
                         <label htmlFor="type">Liike</label>
-                        <select name="type" onChange={handleChange} value={values.type}>
+                        <select name="type" onChange={handleChange} value={values.type} required>
                            {props.types.map( (type) =>  <option  key={type} value={type}>{type}</option> ) }
                         </select>
                     </div>
                     <div>
                         <label htmlFor="repeats">Toistot</label>
-                        <input type="text" name="repeats" onChange={handleChange} value={values.repeats} />
+                        <input type="text" name="repeats" onChange={handleChange} value={values.repeats} required/>
                     </div>
                 </div>
                 <div className={styles.form_row}>
                     <div>
                         <label htmlFor="trainDate">Päivämäärä</label>
-                        <input type="date" name="trainDate" onChange={handleChange} values={values.trainDate} />
+                        <input type="date" name="trainDate" onChange={handleChange} values={values.trainDate} required/>
                     </div>
                     <div>
                         <label htmlFor="kilos">Painot / Kg</label>
-                        <input type="number" name="kilos" step="0.01" onChange={handleChange} values={values.kilos} />
+                        <input type="number" name="kilos" step="0.01" onChange={handleChange} values={values.kilos} required/>
                     </div> 
                 </div>
             </div>

@@ -68,17 +68,16 @@
 .uibutton--light {
     background-color: #00FA9A;
     color: #000000;
-    position: fixed;
-    bottom: 5rem;
-    left: 27rem;
+    position: sticky;
+    bottom: 6em;
+    right: 3em;
 }
 
 .uibutton--dark {
     background-color: #00FA9A;
     color: #000000;
-    position: fixed;
-    bottom: 8rem;
-    left: 38rem;
+    position: sticky;
+
 }
 
 .uibutton:disabled {

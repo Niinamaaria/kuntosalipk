@@ -39,7 +39,7 @@ function Settings(props) {
                 {props.types.map((type) => <div key={type}>{type} </div>)}
                 <form onSubmit={handleTypeSubmit}>
                     <div className={styles.typeform}>
-                        <input type="text" name="type" />
+                        <input type="text" name="type" required/>
                         <Button light type="submit" primary>LISÄÄ</Button >
                     </div>
                 </form>
