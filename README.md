@@ -1,4 +1,4 @@
-# Kuntosalipäiväkirja- sovellus 
+# Kuntosalipäiväkirja
 
 Kuntosalipäiväkirja- sovelluksella käyttäjä voi lisätä tekemänsä kuntosalitreenin, tai suunnitella tulevan treenin. 
 
