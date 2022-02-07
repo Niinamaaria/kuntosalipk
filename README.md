@@ -1,6 +1,7 @@
 # Kuntosalipäiväkirja
 
-Kuntosalipäiväkirja- sovelluksella käyttäjä voi lisätä tekemänsä kuntosalitreenin, tai suunnitella tulevan treenin. 
+Kuntosalipäiväkirja- sovelluksella käyttäjä voi lisätä tekemänsä kuntosalitreenin, tai suunnitella tulevan treenin.
+Sovellus on kehitetty näyttötyönä opintoja varten.
 
 Sovellus löytyy osoitteesta: https://kuntosalipaivakirja.web.app/.
 
@@ -12,6 +13,7 @@ Sovellus näyttää erillisellä sivulla myös statistiikan tehdyistä treeneist
 # Gym diary 
 
 With the gym diary application, the user can add a gym workout they have done, or plan a future workout.
+The application was developed as a final assignment for studies.
 
 The application can be found at: https://kuntosalipaivakirja.web.app/.
 
